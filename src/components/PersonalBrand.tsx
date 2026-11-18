@@ -1,3 +1,5 @@
+import { asset } from '../utils/asset'
+
 export default function PersonalBrand() {
   return (
     <section className="section section--white" id="tao-cv">
@@ -18,7 +20,7 @@ export default function PersonalBrand() {
               </a>
             </div>
             <div className="brand-card__visual">
-              <img src="/banners/banner-cv.jpg" alt="CV Builder" />
+              <img src={asset('banners/banner-cv.jpg')} alt="CV Builder" />
             </div>
           </div>
 
@@ -34,7 +36,7 @@ export default function PersonalBrand() {
               </a>
             </div>
             <div className="brand-card__visual">
-              <img src="/banners/banner-test.jpg" alt="Trắc nghiệm nghề nghiệp" />
+              <img src={asset('banners/banner-test.jpg')} alt="Trắc nghiệm nghề nghiệp" />
             </div>
           </div>
 
@@ -50,7 +52,7 @@ export default function PersonalBrand() {
               </a>
             </div>
             <div className="brand-card__visual">
-              <img src="/banners/banner-review.jpg" alt="CV Review" />
+              <img src={asset('banners/banner-review.jpg')} alt="CV Review" />
             </div>
           </div>
         </div>

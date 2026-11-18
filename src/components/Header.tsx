@@ -34,7 +34,7 @@ export default function Header({ onOpenAuth }: Props) {
   return (
     <header className={`header${open ? ' header--open' : ''}`}>
       <div className="header__inner">
-        <a href="/" className="logo" onClick={close}>
+        <Link to="/" className="logo" onClick={close}>
           <svg className="logo__mark" viewBox="0 0 48 48" fill="none">
             <rect width="48" height="48" rx="10" fill="#00B14F" />
             <path
@@ -45,7 +45,7 @@ export default function Header({ onOpenAuth }: Props) {
           <div className="logo__text">
             top<span>cv</span>
           </div>
-        </a>
+        </Link>
 
         <nav className="nav">
           {navItems.map((item) => (

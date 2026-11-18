@@ -1,10 +1,12 @@
+import { Link } from 'react-router-dom'
+
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="container">
         <div className="footer__grid">
           <div className="footer__brand">
-            <a href="/" className="logo" style={{ marginBottom: 16 }}>
+            <Link to="/" className="logo" style={{ marginBottom: 16 }}>
               <svg className="logo__mark" viewBox="0 0 48 48" fill="none" width={32} height={32}>
                 <rect width="48" height="48" rx="10" fill="#00B14F" />
                 <path
@@ -15,7 +17,7 @@ export default function Footer() {
               <div className="logo__text">
                 top<span>cv</span>
               </div>
-            </a>
+            </Link>
             <div className="footer__contact">
               <div>
                 <strong>Hotline:</strong> 1900 068 889 | Nhánh 2 (Giờ hành chính)
@@ -68,11 +70,11 @@ export default function Footer() {
           <div>
             <div className="footer__col-title">Dành cho nhà tuyển dụng</div>
             <div className="footer__links">
-              <a href="/tuyendung">Đăng tuyển dụng</a>
-              <a href="/tuyendung#giai-phap">Tìm hồ sơ</a>
-              <a href="/tuyendung#giai-phap">Sản phẩm dịch vụ</a>
-              <a href="/tuyendung#bao-gia">Bảng giá</a>
-              <a href="/tuyendung#lien-he">Liên hệ</a>
+              <Link to="/tuyendung">Đăng tuyển dụng</Link>
+              <Link to="/tuyendung#giai-phap">Tìm hồ sơ</Link>
+              <Link to="/tuyendung#giai-phap">Sản phẩm dịch vụ</Link>
+              <Link to="/tuyendung#bao-gia">Bảng giá</Link>
+              <Link to="/tuyendung#lien-he">Liên hệ</Link>
             </div>
           </div>
         </div>

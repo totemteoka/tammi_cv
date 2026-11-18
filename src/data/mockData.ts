@@ -581,7 +581,7 @@ export const banners = [
     title: 'ĐÃ ĐẾN LÚC NÂNG TẦM THU NHẬP',
     subtitle: 'Career Opportunities for Fresh Graduates',
     cta: 'Khám phá ngay',
-    image: '/banners/banner-career.jpg',
+    image: 'banners/banner-career.jpg',
     bg: 'linear-gradient(135deg, #0a3d2e 0%, #00B14F 100%)',
   },
   {
@@ -589,7 +589,7 @@ export const banners = [
     title: 'TẠO CV XỊN TRONG 5 PHÚT',
     subtitle: 'Hơn 50+ mẫu CV chuyên nghiệp',
     cta: 'Tạo CV ngay',
-    image: '/banners/banner-cv.jpg',
+    image: 'banners/banner-cv.jpg',
     bg: 'linear-gradient(135deg, #1a237e 0%, #42a5f5 100%)',
   },
   {
@@ -597,7 +597,7 @@ export const banners = [
     title: 'TOPCV PRO - ƯU TIÊN HỒ SƠ',
     subtitle: 'Tiếp cận nhà tuyển dụng nhanh hơn',
     cta: 'Nâng cấp Pro',
-    image: '/banners/banner-pro.jpg',
+    image: 'banners/banner-pro.jpg',
     bg: 'linear-gradient(135deg, #5d4037 0%, #c9a227 100%)',
   },
   {
@@ -605,7 +605,7 @@ export const banners = [
     title: 'TRẮC NGHIỆM NGHỀ NGHIỆP',
     subtitle: 'Thấu hiểu bản thân - Nâng tầm giá trị',
     cta: 'Làm trắc nghiệm',
-    image: '/banners/banner-test.jpg',
+    image: 'banners/banner-test.jpg',
     bg: 'linear-gradient(135deg, #4a148c 0%, #7e57c2 100%)',
   },
 ]

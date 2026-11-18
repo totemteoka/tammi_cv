@@ -1,3 +1,5 @@
+import { asset } from '../utils/asset'
+
 export default function AppPromo() {
   return (
     <section className="section">
@@ -33,7 +35,7 @@ export default function AppPromo() {
             </div>
           </div>
           <div className="app-promo__phones">
-            <img src="/banners/app-phones.jpg" alt="Ứng dụng TopCV trên điện thoại" />
+            <img src={asset('banners/app-phones.jpg')} alt="Ứng dụng TopCV trên điện thoại" />
           </div>
         </div>
       </div>

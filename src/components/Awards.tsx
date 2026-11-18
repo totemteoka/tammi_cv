@@ -1,4 +1,5 @@
 import { awards } from '../data/mockData'
+import { asset } from '../utils/asset'
 
 export default function Awards() {
   return (
@@ -11,7 +12,7 @@ export default function Awards() {
           {awards.map((a) => (
             <div key={a.title} className="award-card">
               <div className="award-card__icon">
-                <img src="/banners/award-trophy.jpg" alt="" />
+                <img src={asset('banners/award-trophy.jpg')} alt="" />
               </div>
               <div className="award-card__title">{a.title}</div>
               <div className="award-card__year">{a.year}</div>

@@ -14,6 +14,7 @@ import {
   X,
 } from 'lucide-react'
 import type { AuthMode } from '../components/AuthModal'
+import { asset } from '../utils/asset'
 import '../employer.css'
 
 type Props = {
@@ -240,7 +241,7 @@ export default function EmployerPage({ onOpenAuth }: Props) {
               <div className="epl-hero__card">
                 <img
                   className="epl-hero__img"
-                  src="/banners/employer-hero-ai.jpg"
+                  src={asset('banners/employer-hero-ai.jpg')}
                   alt="Toppy AI trợ lý tuyển dụng"
                 />
                 <div className="epl-hero__float epl-hero__float--match">
@@ -394,7 +395,7 @@ export default function EmployerPage({ onOpenAuth }: Props) {
               <p>Toppy AI gợi ý, Nhà tuyển dụng ra quyết định.</p>
             </div>
             <div className="epl-ai-banner">
-              <img src="/banners/employer-hero-ai.jpg" alt="Toppy AI" />
+              <img src={asset('banners/employer-hero-ai.jpg')} alt="Toppy AI" />
               <div className="epl-ai-banner__content">
                 <span>Trợ lý AI tuyển dụng</span>
                 <h3>Gợi ý ứng viên phù hợp chỉ trong vài giây</h3>

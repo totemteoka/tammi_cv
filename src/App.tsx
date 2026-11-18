@@ -13,8 +13,10 @@ export default function App() {
     setAuthOpen(true)
   }
 
+  const basename = import.meta.env.BASE_URL.replace(/\/$/, '') || '/'
+
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <Routes>
         <Route path="/" element={<HomePage onOpenAuth={openAuth} />} />
         <Route path="/tuyendung" element={<EmployerPage onOpenAuth={openAuth} />} />

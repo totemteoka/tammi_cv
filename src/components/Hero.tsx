@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Search, MapPin, ChevronRight, ChevronLeft } from 'lucide-react'
 import { categories, banners } from '../data/mockData'
+import { asset } from '../utils/asset'
 
 export default function Hero() {
   const [slide, setSlide] = useState(0)
@@ -58,7 +59,7 @@ export default function Hero() {
               {b.image && (
                 <img
                   className="banner-slide__img"
-                  src={b.image}
+                  src={asset(b.image)}
                   alt={b.title}
                   loading={i === 0 ? 'eager' : 'lazy'}
                 />
